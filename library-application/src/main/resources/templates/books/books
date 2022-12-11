@@ -1,0 +1,1 @@
+alter table books add constraint check_positive check (year > 0)
